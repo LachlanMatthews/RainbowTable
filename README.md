@@ -1,8 +1,5 @@
-# RainbowTable
-Rainbow Table implementation
-
----Java program
 Compile: $ javac Rainbow.java
+
 Run: $ java Rainbow Passwords.txt
 
 Passwords.txt is a list containing 1000 words. The user inputs an MD5 hash and the program reduces it to determine if there is a match in the dictionary. This program is meant to represent a hacker using stolen password hashes against a dictionary of common passwords. Each word in the dictionary is hashed and then compared to the stolen hash. The reduction function allows more words to be stored in the hash of the plaintext to decrease search time.
