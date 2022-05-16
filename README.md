@@ -6,4 +6,6 @@ Passwords.txt is a list containing 1000 words. The user inputs an MD5 hash and t
 
 Reduction function connects the hash of one possible password to the next password in the list of words read in. If x % 5 != 0 then I duplicate the final password read in so that the chain can complete the 5 loops of hashing/reducing without the final current hash being affected.
 
+Rainbow.txt contains the generated rainbow table. 1000 words are now stored in onyl 200 words with help from the reduction function.
+
 MD5 implementation: https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/security/MessageDigest.html
