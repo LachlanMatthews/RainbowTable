@@ -1,3 +1,5 @@
+# Rainbow Table
+
 Compile: $ javac Rainbow.java
 
 Run: $ java Rainbow Passwords.txt
